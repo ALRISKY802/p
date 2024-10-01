@@ -1,0 +1,164 @@
+body{
+    
+    margin: 0;
+    
+}
+
+#navbar{
+	background:#E7CCCC;
+	height:90px;
+	width:1800px;
+	padding-right:10px;
+	padding-left:15px;
+}
+#navbar h1{
+	color:orange;
+	font-size:1.8rem;
+	text-shadow: 2px 2px 2px #000;
+	font-family:cursive;
+	
+}
+#navbar ul{
+	display: flex;
+	border:4px;
+	float:center;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+#navbar ul li{
+	list-style: none;
+	padding: 3px 5px 3px 5px;
+	list-style:none;
+	margin-left:30px;
+	top:2px;
+	font-size:14px;
+	
+}
+#navbar ul li:hover,#phone a:hover,#mobile-menu ul li:hover{
+	background:navy;
+	cursor:pointer;
+}
+#navbar ul li a{
+	text-decoration:none;
+	color:black;
+	font-size:1.1rem;
+}
+#navbar logo {
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	width: 10px;
+	height: 10px;
+	object-fit: cover;
+}
+.image{
+	width: 500px;
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	left:300px;
+	bottom:200px;
+	
+	
+}
+#div1{
+	text-align:center;
+    background-color: #060;
+    max-width: 100%;
+}
+h2{
+    font-family:lucida handwriting;
+}
+h3{
+    font-family:sans-serif; 
+}
+span{
+    text-decoration:red dotted underline;
+}
+img{
+    width: 20%;
+    border-radius: 50%;
+}
+#choose{
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0.979);
+    padding: 12px;
+    border-radius: 23px;
+}
+#choose:hover{
+    background-color: rgb(255, 166, 0);
+    text-decoration: none;
+}
+#choose:visted{
+    background-color:rgb(238, 130, 135);
+}
+#par{
+	text-align:left;
+	
+}
+ul{
+padding:15px;	
+list-style-type:square;
+background-color:red;
+
+}
+ol{
+	padding:20px;
+	list-style-type:none;
+	background-color:red;
+}
+	ul li{
+		
+		margin:2px;
+		background-color: white;
+		border-radius:20px;
+		font-family:sans-serif;
+		
+	}
+ol li{
+	margin: 2px;
+	background-color: white;
+	border-radius:20px;
+	font-family:sans-serif;
+}
+#q, th, td{
+	
+	text-align:left;
+	
+	
+}
+#q{
+	border-collapse: collapse;
+	width:50%;
+	height:50%;
+	padding:8px;
+	
+}
+ #Al Risky{
+	background-color: red;
+	 
+	 
+	
+	
+	
+}
+#q tr:nth-child(even){
+	background-color:red;
+	color:white;
+}
+
+#table2{
+	border-collapse: collapse;
+	width:50%;
+	height:50%;
+	padding:8px;
+	margin-bottom:60px;
+}
+#table2 th, td {
+	border-bottom: 1px solid gray;
+}
+#table2 th {
+	background-color: red;
+	color: white;										
+}
